@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to Relative URL Templates.</h1>
+    
+    
+    <!-- No TEMPLATES TAGGING -->
+    <!-- <a href="basic_app/other.html">Go to other page.</a> -->
+    <a href="{% url 'basic_app:other'  %}">Go to Other page.</a>
+    <br>
+    <a href="{% url 'admin:index'  %}">Go to admin page.</a>
+    <br>
+    <a href="{% url 'basic_app:help' %}">Go to help page.</a>
+    <br>
+    <a href="{% url 'index' %}">Go to index.</a>
+    
+</body>
+</html>
